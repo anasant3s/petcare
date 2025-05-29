@@ -127,3 +127,52 @@ h1, h2 {
     text-underline-offset: 14px;
 
 }
+
+/* Seções - Dúvidas ( Conteúdos ) */
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 80px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+    margin-bottom: -50px; /* distancia */
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    border-left: 1px solid #FF725E;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    opacity: 0;
+    /* eventos js */
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+
+}
+
+.duvida.ativa .paragrafo {
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
+}
