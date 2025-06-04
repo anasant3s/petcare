@@ -115,3 +115,50 @@ h1, h2 {
     max-width: 950px;
     margin: 0 auto;
 }
+
+#duvida {
+    display: flex;
+    text-align: center;
+    gap: 64px;
+    padding: 80px 80px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #7988d9;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+    margin-bottom: -50px; 
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    width: 17px;
+    height: 10px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #7988d9;
+    border-bottom: 1px solid #7988d9;
+    border-left: 1px solid #7988d9;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
+}
