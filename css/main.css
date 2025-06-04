@@ -105,3 +105,13 @@ h1, h2 {
     line-height: 180%;
 
 }
+#farmacia {
+    padding: 90px 80px;
+    text-align: center;
+
+}
+
+#farmacia .paragrafo {
+    max-width: 950px;
+    margin: 0 auto;
+}
