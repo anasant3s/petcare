@@ -162,3 +162,65 @@ h1, h2 {
     overflow: 24px;
     padding: 60px 24px 10px 24px;
 }
+
+footer {
+    background-color:#a6b1f0;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer .titulo {
+    color: #364077;
+    
+}
+
+footer nav a {
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 1px 5px 10px #364077;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+    color:#FFFFFF;
+    font-weight: 600;
+
+
+}
+
+footer p a {
+    color:#364077;
+    text-decoration: none;
+}
+
+
+.footer img {
+    max-width: 200px;
+}
+
+
+#copyright {
+    background-color: #12181b;
+    color: #FFFFFF;
+    padding: 24px;
+    text-align: center;
+}
+
+#copyright a {
+    color: #7988d9;
+    text-decoration: none;
+    padding: 3px;
+}
